@@ -1,7 +1,10 @@
 name: Create Release ZIP wo/ extra folder
 
 on:
-  push:  # 每次 push 都会触发
+  push:
+
+permissions:
+  contents: write  # 显式设置权限为可写
 
 jobs:
   build:
@@ -21,20 +24,4 @@ jobs:
           TAG=$(git describe --tags --abbrev=0 || echo "v0.0.0")
           echo "LATEST_TAG=$TAG" >> $GITHUB_ENV
 
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ env.LATEST_TAG }}
-          release_name: "Release ${{ env.LATEST_TAG }}"
-          draft: false
-          prerelease: false
-
-      - name: Upload ZIP as release asset
-        uses: softprops/action-gh-release@v1
-        with:
-          files: noto-cjk-vf.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+     
