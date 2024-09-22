@@ -1,0 +1,7 @@
+# id 只能填 字母 数字 半角符号
+id=inter-noto-cjk-vf-nekorectifier
+name=Inter&Noto Sans/Serif VF
+version=1.0.0
+versionCode=1
+author=NekoRectifier@github
+description=（目标系统 ColorOS 14）中西文均采用可变字体进行字重生成，结合 ColorOS 官方字体配置文件进行微调。\n去除了原 repo 中对 A11 支持（静态字体调用），额外添加 JetBrainsMono 作为等宽字体
