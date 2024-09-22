@@ -2,8 +2,6 @@ name: Create Release ZIP wo/ extra folder
 
 on:
   push:
-    tags:
-      - '**'  # 监听所有分支的 push
 
 jobs:
   build:
