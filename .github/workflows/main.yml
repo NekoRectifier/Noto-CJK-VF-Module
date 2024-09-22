@@ -1,0 +1,22 @@
+name: Create Release ZIP wo/ extra folder
+
+on:
+  push:
+    tags:
+      - 'v*'  # 监听所有 v 开头的 tag 推送
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Create ZIP file
+        run: zip -r repo.zip ./*
+
+      - name: Upload ZIP as release asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: repo.zip
