@@ -1612,15 +1612,15 @@
     <family lang="zh-Hans">
     <!-- @@ 中文 -->
     <!-- TODO: 检查 postscriptname 是否正确 -->
-        <font weight="100" style="normal" index="2" postScriptName="NotoSansSC-Thin">
+        <font weight="100" style="normal" index="2" postScriptName="OPlusSansSC">
             NotoSansCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="100"/>
         </font>
-        <font weight="200" style="normal" index="2" postScriptName="NotoSansSC-ExtraLight">
+        <font weight="200" style="normal" index="2" postScriptName="OPlusSansSC">
             NotoSansCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="200"/>
         </font>
-        <font weight="300" style="normal" index="2" postScriptName="NotoSansSC-Light">
+        <font weight="300" style="normal" index="2" postScriptName="OPlusSansSC">
             NotoSansCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="300"/>
         </font>
@@ -1628,37 +1628,38 @@
             NotoSansCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="400"/>
         </font>
-        <font weight="500" style="normal" index="2" postScriptName="NotoSansSC-Medium">
+        <font weight="500" style="normal" index="2" postScriptName="OPlusSansSC">
             NotoSansCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="500"/>
         </font>
-        <font weight="600" style="normal" index="2" postScriptName="NotoSansSC-SemiBold">
+        <font weight="600" style="normal" index="2" postScriptName="OPlusSansSC">
             NotoSansCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="600"/>
         </font>
-        <font weight="700" style="normal" index="2" postScriptName="NotoSansSC-Bold">
+        <font weight="700" style="normal" index="2" postScriptName="OPlusSansSC">
             NotoSansCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="700"/>
         </font>
-        <font weight="800" style="normal" index="2" postScriptName="NotoSansSC-ExtraBold">
+        <font weight="800" style="normal" index="2" postScriptName="OPlusSansSC">
             NotoSansCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="800"/>
         </font>
-        <font weight="900" style="normal" index="2" postScriptName="NotoSansSC-Black">
+        <font weight="900" style="normal" index="2" postScriptName="OPlusSansSC">
             NotoSansCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="900"/>
         </font>
 
         <!-- Serif 部分 -->
-        <font weight="100" style="normal" index="2" fallbackFor="serif" postScriptName="NotoSerifSC-Thin">
+        <!-- PostScriptName 同样采用 OPlusSansSC，因为 ColorOS 就是这样定义的 -->
+        <font weight="100" style="normal" index="2" fallbackFor="serif" postScriptName="OPlusSansSC">
             NotoSerifCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="100"/>
         </font>
-        <font weight="200" style="normal" index="2" fallbackFor="serif" postScriptName="NotoSerifSC-ExtraLight">
+        <font weight="200" style="normal" index="2" fallbackFor="serif" postScriptName="OPlusSansSC">
             NotoSerifCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="200"/>
         </font>
-        <font weight="300" style="normal" index="2" fallbackFor="serif" postScriptName="NotoSerifSC-Light">
+        <font weight="300" style="normal" index="2" fallbackFor="serif" postScriptName="OPlusSansSC">
             NotoSerifCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="300"/>
         </font>
@@ -1666,23 +1667,23 @@
             NotoSerifCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="400"/>
         </font>
-        <font weight="500" style="normal" index="2" fallbackFor="serif" postScriptName="NotoSerifSC-Medium">
+        <font weight="500" style="normal" index="2" fallbackFor="serif" postScriptName="OPlusSansSC">
             NotoSerifCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="500"/>
         </font>
-        <font weight="600" style="normal" index="2" fallbackFor="serif" postScriptName="NotoSerifSC-SemiBold">
+        <font weight="600" style="normal" index="2" fallbackFor="serif" postScriptName="OPlusSansSC">
             NotoSerifCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="600"/>
         </font>
-        <font weight="700" style="normal" index="2" fallbackFor="serif" postScriptName="NotoSerifSC-Bold">
+        <font weight="700" style="normal" index="2" fallbackFor="serif" postScriptName="OPlusSansSC">
             NotoSerifCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="700"/>
         </font>
-        <font weight="800" style="normal" index="2" fallbackFor="serif" postScriptName="NotoSerifSC-ExtraBold">
+        <font weight="800" style="normal" index="2" fallbackFor="serif" postScriptName="OPlusSansSC">
             NotoSerifCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="800"/>
         </font>
-        <font weight="900" style="normal" index="2" fallbackFor="serif" postScriptName="NotoSerifSC-Black">
+        <font weight="900" style="normal" index="2" fallbackFor="serif" postScriptName="OPlusSansSC">
             NotoSerifCJK-VF-Android.otf.ttc
             <axis tag="wght" stylevalue="900"/>
         </font>
